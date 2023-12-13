@@ -32,6 +32,16 @@ export default function Home() {
             </Label>
             <Button typeButton={"submit"} text={"Sign in"} />
           </Form>
+
+          <p className="text-center text-sm text-gray-500">
+            Don&apos;t have an account?&nbsp;
+            <a
+              className="font-semibold leading-6 text-rose-500 hover:text-rose-600"
+              href="/signup"
+            >
+              Sign up
+            </a>
+          </p>
         </FormWrapper>
       </Container>
     </main>
